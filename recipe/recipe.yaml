@@ -1,6 +1,6 @@
 context:
   name: "secretinit"
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/liifi/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: f1afe7e1f9468dfe03d49f50bb65bf8f0a17cbeb9837a8cd6028dc476f62eb59
+  sha256: fef226223cce0a05260668e1497df02a955db00b493be573b53cd5dc7c370c0a
 
 build:
   number: 0
